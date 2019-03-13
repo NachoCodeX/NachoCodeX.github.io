@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>NachoCodeX</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <div class="wrapper"></div>
+    <header class="header header--u2homework1"><a href="/index.html"><i class="header__logo cursor--pointer text-white text--size-lg fas fa-user-astronaut"></i></a>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__item__text" href="/index.html">Home</a></li>
+        <li class="menu__item"><a class="menu__item__text" href="/pages/homeworks.html">Homeworks</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="main__header">
+        <h1 class="main__header__title">Sieve of Eratosthenes</h1>
+      </div>
+      <div class="sieve-wrapper">
+        <aside class="sieve-aside">
+          <h2 class="sieve-aside-title text-white">Instructions</h2>
+          <div>
+            <p class="text-white sieve-aside-text">You must type a number between 20 - 150 in the input below,<span class="sieve-aside-text sieve-aside-text--hightlight"> please don't be a fool person only type NUMBERS.</span></p>
+            <div class="sieve-field">
+              <input class="sieve-input" id="sieve-input" placeholder="Type a number" value="20" type="number" min="20" max="150"/>
+            </div>
+          </div>
+          <div class="sieve-aside-actions">
+            <p class="sieve-aside-subtitle text-white">Multiplies of</p>
+            <div class="sieve-aside-actions-grid">
+              <button class="sieve-aside-btnaction sieve-aside-btnaction--primary sieve-aside-btnaction--text--lg" name="action" data-type="2">2</button>
+              <button class="sieve-aside-btnaction sieve-aside-btnaction--primary sieve-aside-btnaction--text--lg" name="action" data-type="3"> 3</button>
+              <button class="sieve-aside-btnaction sieve-aside-btnaction--primary sieve-aside-btnaction--text--lg" name="action" data-type="4">4</button>
+              <button class="sieve-aside-btnaction sieve-aside-btnaction--primary sieve-aside-btnaction--text--lg" name="action" data-type="5">5</button>
+              <button class="sieve-aside-btnaction sieve-aside-btnaction--primary sieve-aside-btnaction--text--lg" name="action" data-type="6">6</button>
+              <button class="sieve-aside-btnaction sieve-aside-btnaction--primary sieve-aside-btnaction--text--lg" name="action" data-type="7">7</button>
+              <button class="sieve-aside-btnaction sieve-aside-btnaction--primary sieve-aside-btnaction--text--lg" name="action" data-type="8">8</button>
+              <button class="sieve-aside-btnaction sieve-aside-btnaction--primary sieve-aside-btnaction--text--lg" name="action" data-type="9">9</button>
+            </div>
+            <p class="sieve-aside-subtitle text-white">Other actions</p>
+            <div class="sieve-aside-otheractions">
+              <button class="sieve-aside-btnaction sieve-aside-btnaction--secondary" id="prime">Prime numbers  </button>
+              <button class="sieve-aside-btnaction sieve-aside-btnaction--text--lg sieve-aside-btnaction--remove" id="clear">
+                 <i class="fas fa-broom"></i></button>
+            </div>
+          </div>
+        </aside>
+        <main class="sieve-main">
+          <div class="sieve-grid" id="sieve-board"></div>
+        </main>
+      </div>
+    </div>
+    <footer class="footer"><span class="footer__span">Copyright &copy; 2019, Nacho Castillo.</span></footer>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+    <script src="../../../js/app.js"></script>
+  <script type="text/javascript" src="../../../app.bundle.js"></script></body>
+</html>
