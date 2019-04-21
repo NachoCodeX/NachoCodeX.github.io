@@ -137,7 +137,7 @@ module.exports = "<router-outlet></router-outlet>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9zcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */"
 
 /***/ }),
 
@@ -383,7 +383,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var wsLink = new apollo_link_ws__WEBPACK_IMPORTED_MODULE_0__["WebSocketLink"]({
     // uri: `ws://localhost:7000/`,
-    uri: 'https://james-pweb-app.herokuapp.com/',
+    uri: 'ws://james-pweb-app.herokuapp.com/',
     options: {
         reconnect: true
     }
