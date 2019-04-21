@@ -383,7 +383,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var wsLink = new apollo_link_ws__WEBPACK_IMPORTED_MODULE_0__["WebSocketLink"]({
     // uri: `ws://localhost:7000/`,
-    uri: 'ws://james-pweb-app.herokuapp.com/',
+    uri: 'wss://james-pweb-app.herokuapp.com/',
     options: {
         reconnect: true
     }
